@@ -1,0 +1,17 @@
+#header {
+  background: #FFF;
+  height: 40px;
+}
+#header .header-wrap {
+  height: 40px;
+}
+#header .head-bd {
+  height: 40px;
+}
+#header .head-bd .logo {
+  height: 40px;
+}
+#header .head-bd .nav li {
+  height: 40px;
+  color: #009946;
+}

@@ -1,0 +1,25 @@
+/******************** change by clown ******************************************/
+
+#header {
+    background: #FFF;
+    height: 60px;
+}
+#header .header-wrap {
+    height:60px;
+}
+#header .head-bd {
+    height:60px;
+}
+
+#header .head-bd .logo{
+    height:60px;
+}
+
+#header .head-bd .nav {
+
+
+}
+#header .head-bd .nav li{
+    height:60px;
+    color:#009946
+}
