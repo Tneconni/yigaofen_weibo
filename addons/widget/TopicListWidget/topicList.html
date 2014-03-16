@@ -4,7 +4,11 @@
         <ul>
         	<volist name="topic_list" id="vo">
         		<li>
-        			<p><a href="{:U('public/Topic/index',array('k'=>urlencode($vo['topic_name'])))}">{$vo['topic_name']}</a>（{$vo['count']}）</p>
+        			<p>
+                        <a title="{$vo['note']}"
+                                href="{:U('public/Topic/index',array('k'=>urlencode($vo['topic_name'])))}">{$vo['topic_name']}</a>
+                        <span class="topic-count">（{$vo['count']}）</span>
+                    </p>
         			<php>if($vo['note']){</php>
 		                <div class="topic-tips">
 		                    <i class="arrow-y"></i>

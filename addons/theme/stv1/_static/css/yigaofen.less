@@ -1,3 +1,7 @@
+#body_page{
+  background-image:url(../image/cloud.png);
+  background-position: 0 -205px;
+}
 #header {
   background: #FFF;
   height: 40px;
@@ -34,6 +38,25 @@
             color:#fff;
             background-image:url(../image/nav_a_hover.png);
 
+          }
+        }
+        &.drop{
+          a.app{
+            background-image:url(../image/nav_a_hover.png);
+            color:#fff;
+            &:hover,&:link{
+              color:#fff;
+              background-image:url(../image/nav_a_hover.png);
+
+            }
+          }
+        }
+        .dropmenu{
+          ul{
+            li{
+              height:auto;
+              overflow: hidden;
+            }
           }
         }
       }
@@ -148,6 +171,22 @@
                 color:#6c6c6c;
               }
             }
+          }
+        }
+        .related_list{
+          h3{
+            a{
+              color:#16534B;
+            }
+          }
+
+          dl{
+            dd{
+              .change-name{
+                color:#16534B;
+              }
+            }
+
           }
         }
       }

@@ -1,3 +1,7 @@
+#body_page {
+  background-image: url(../image/cloud.png);
+  background-position: 0 -205px;
+}
 #header {
   background: #FFF;
   height: 40px;
@@ -11,7 +15,147 @@
 #header .head-bd .logo {
   height: 40px;
 }
+#header .head-bd .nav {
+  margin-left: 200px;
+}
 #header .head-bd .nav li {
   height: 40px;
   color: #009946;
+  float: left;
+}
+#header .head-bd .nav li.current a.app {
+  background-image: url(../image/nav_a_hover.png);
+  color: #fff;
+}
+#header .head-bd .nav li.current a.app:hover {
+  color: #fff;
+  background-image: url(../image/nav_a_hover.png);
+}
+#header .head-bd .nav li a.app {
+  color: #009944;
+}
+#header .head-bd .nav li a.app:hover {
+  color: #fff;
+  background-image: url(../image/nav_a_hover.png);
+}
+#header .head-bd .nav li.drop a.app {
+  background-image: url(../image/nav_a_hover.png);
+  color: #fff;
+}
+#header .head-bd .nav li.drop a.app:hover,
+#header .head-bd .nav li.drop a.app:link {
+  color: #fff;
+  background-image: url(../image/nav_a_hover.png);
+}
+#header .head-bd .nav li .dropmenu ul li {
+  height: auto;
+  overflow: hidden;
+}
+#header .head-bd .yi-link {
+  padding-left: 26px;
+  margin-top: 5px;
+  width: 410px;
+  float: right;
+  background-image: url(../image/yi_link_bg.png );
+  height: 26px;
+  line-height: 24px;
+}
+#header .head-bd .yi-link li {
+  float: left;
+}
+#header .head-bd .yi-link li a {
+  color: #2b8c78;
+}
+#header .head-bd .yi-link li span {
+  color: #2b8c78;
+  margin: 0 20px;
+}
+#header .head-bd .search {
+  display: none;
+}
+#header .head-bd .person {
+  display: none;
+}
+#page-wrap {
+  margin-top: 40px;
+}
+#page-wrap #main-wrap .st-index-right {
+  background-image: url(../image/blue.png);
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in-h,
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in {
+  height: 62px;
+  border: solid 1px #86c6ba;
+  background-color: #86c6ba;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in-h .datetime,
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in .datetime {
+  background-image: url(../image/date.png );
+  width: 82px;
+  height: 41px;
+  line-height: 22px;
+  color: #fff;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in-h .datetime .date,
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in .datetime .date {
+  font-size: 14px;
+  color: #86c6ba;
+  margin-left: 10px;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in-h .datetime .week,
+#page-wrap #main-wrap .st-index-right .right-wrap .sign-in .datetime .week {
+  font-size: 16px;
+  color: #86c6ba;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .day {
+  color: #fff;
+  top: 12px;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .num {
+  color: #fff;
+  top: 32px;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-sign-h,
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-sign {
+  color: #fff;
+  width: 70px;
+  top: 8px;
+  left: 100px;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-task {
+  width: 111px;
+  height: 31px;
+  background-image: url(../image/task.png );
+  background-position: 0 0;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-task span {
+  display: none;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-account {
+  width: 111px;
+  height: 31px;
+  background-image: url(../image/sort.png );
+  background-position: 0 0;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .btn-account span {
+  display: none;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .hot-topic ul li .topic-tips {
+  display: none;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .hot-topic ul li a {
+  color: #16534b;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .hot-topic ul li .topic-count {
+  float: right;
+  margin-right: 2px;
+  color: #6c6c6c;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .related_list h3 a {
+  color: #16534B;
+}
+#page-wrap #main-wrap .st-index-right .right-wrap .related_list dl dd .change-name {
+  color: #16534B;
 }

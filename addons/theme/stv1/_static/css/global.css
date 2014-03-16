@@ -125,7 +125,9 @@ body{background:url(../image/body-b.jpg) repeat-x center 0 #e4f3f7;}
 #header .head-bd .nav .current a.app{display:block;padding:11px 10px 13px;padding:12px 10px 12px \0; /*for Ie8*/height:16px;line-height:16px;background:#00657c;}
 *+html #header .head-bd .nav .current a.app{padding:12px 10px 12px;/*for Ie7*/}
 
-#header .head-bd .nav li.drop a.app:link,#header .head-bd .nav li.drop a.app:visited{float:left;display:block;color:#333;padding:11px 10px 13px;padding:12px 10px 12px \0; /*for Ie8*/margin:0;height:16px;line-height:16px;background:#fff}
+/*********fixed by cloud ******/
+/*#header .head-bd .nav li.drop a.app:link,#header .head-bd .nav li.drop a.app:visited{float:left;display:block;color:#333;padding:11px 10px 13px;padding:12px 10px 12px \0; *//*for Ie8*//*margin:0;height:16px;line-height:16px;background:#fff}*/
+#header .head-bd .nav li.drop a.app:link,#header .head-bd .nav li.drop a.app:visited{float:left;display:block;color:#fff;padding:11px 10px 13px;padding:12px 10px 12px \0; /*for Ie8*/margin:0;height:16px;line-height:16px;background:#fff}
 #header .head-bd .nav li.drop a.app:hover{padding:11px 10px 13px;padding:12px 10px 12px \0; /*for Ie8*/}
 #header .head-bd .nav li .dropmenu{background:url(../image/layer_bg.png) repeat #fff;border:#797979 solid 1px;border-top:none;left:-1px;top:40px;position:absolute;}
 #header .head-bd .nav li .dropmenu .app-list{padding:10px;}
